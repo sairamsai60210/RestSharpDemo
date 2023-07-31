@@ -16,7 +16,7 @@ namespace RestSharpDemo
             var request = new RestRequest("/api/users?page=2", Method.GET);
             request.AddHeader("Accept", "application/json");
             request.RequestFormat = DataFormat.Json;
-
+            //Updated with newNew
             IRestResponse response = client.Execute(request);
             Console.WriteLine(response.Content);
             Console.ReadKey();
