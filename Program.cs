@@ -20,7 +20,6 @@ namespace RestSharpDemo
             IRestResponse response = client.Execute(request);
             Console.WriteLine(response.Content);
             Console.ReadKey();
-
         }
     }
 }
